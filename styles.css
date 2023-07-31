@@ -39,11 +39,11 @@ body {
     /* background-color: #008080; */
     color: hsl(204,100%,58%);
 }
-.calculator button:hover, button.loyal{
+/* .calculator button:hover, button.loyal{
     background-color: hsl(230,6%,30%);
     /* box-shadow: 0 0 20px white;
     background-color: grey; */
-}
+} */
 .bigspan{
     grid-column: span 2;
 }
