@@ -41,8 +41,6 @@ body {
 }
 /* .calculator button:hover, button.loyal{
     background-color: hsl(230,6%,30%);
-    /* box-shadow: 0 0 20px white;
-    background-color: grey; */
 } */
 .bigspan{
     grid-column: span 2;
