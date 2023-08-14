@@ -7,8 +7,10 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(200,200,200); */
+    background-color: 	#f4f4f4;
+    font-weight: 400;
     height: 100vh;
     display: grid;
     justify-content: center;
@@ -17,10 +19,11 @@ body {
 
 .calculator {
     display: grid;
+    margin-top: 60px;
     grid-template-rows: minmax(8px, auto);
-    grid-template-rows: repeat(5, 60px);
+    grid-template-rows: repeat(5, 65px);
 
-    grid-template-columns: repeat(4, 60px);
+    grid-template-columns: repeat(4, 65px);
     justify-content: center;
     background-color: hsl(220,6%,0%);
     /* background-color: #008080; */
@@ -32,7 +35,7 @@ body {
     border: none;
     font-family: inherit;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 300;
     border-radius: 10px;
     cursor: pointer;
     background-color: hsl(230,6%,20%);
@@ -41,14 +44,13 @@ body {
 }
 .calculator button:hover, button.loyal{
     background-color: hsl(230,6%,30%);
+
 }
 .bigspan{
     grid-column: span 2;
 }
 .calculator > .output{
-    /* height:65px; */
     font-size: 2rem;
-    /* background-color: hsl(230,6%,10%); */
     color: white;
     grid-column: 1/-1;
     display: flex;
@@ -57,7 +59,6 @@ body {
     align-items: flex-end;
     word-break: break-all;
     border-radius: inherit;
-    /* background-color: blue; */
 }
 h3{
     margin-top: 5px;
@@ -65,9 +66,7 @@ h3{
 }
 .output .prev-display{
     font-size: 1.3rem;
-    
     font-weight: 400;
-    /* background-color: red; */
     color: hsl(0,0%,65%);
 }
 .equal{
@@ -84,7 +83,7 @@ h3{
 }
 .personal{
     /* position: relative; */
-    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     padding: 10px;
     background-color: inherit;
@@ -94,6 +93,8 @@ h3{
     font-weight: 500;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    color: blue;
 }
 .footer button::after{
     content: '';
@@ -107,4 +108,9 @@ h3{
 }
 .footer button:hover::after{
     transform: scaleX(1);
+}
+p{
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
